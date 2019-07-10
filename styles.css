@@ -11,6 +11,12 @@ p{
   font-size: 40px;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+#sub{
+  font-size: 25px;
+  margin-top: 0px;
   margin-bottom: 20px;
 }
 
@@ -20,6 +26,7 @@ img{
   padding: 15px;
   object-fit: cover;
 }
+
 .photos{
   display: flex;
   flex-direction: row;
@@ -27,13 +34,13 @@ img{
   justify-content: center;
 }
 
-@media all and (max-width: 1050px){
+@media screen and (max-width: 1050px){
     img{
       width: 50%
     }
   }
 
-  @media all and (max-width: 750px){
+  @media screen and (max-width: 750px){
     img{
       width: 100%
     }
