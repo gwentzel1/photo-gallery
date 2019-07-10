@@ -28,18 +28,14 @@ img{
   justify-content: center;
 }
 
-@media screen and (max-width: 1047px){
+@media all and (max-width: 1050px){
     img{
       width: 50%
-      height: auto;
-      object-fit: cover;
     }
   }
 
-  @media screen and (max-width: 747px){
+  @media all and (max-width: 750px){
     img{
       width: 100%
-      height: auto
-      object-fit: cover;
     }
   }
