@@ -24,6 +24,7 @@ img{
   width: 33%;
   height: auto;
   padding: 15px;
+  height: 250px;
   object-fit: cover;
 }
 
@@ -36,12 +37,14 @@ img{
 
 @media screen and (max-width: 1050px){
     img{
-      width: 50%
+      width: 50%;
     }
   }
 
   @media screen and (max-width: 750px){
     img{
-      width: 100%
+      width: 100%;
     }
   }
+
+/* make border when hover */
